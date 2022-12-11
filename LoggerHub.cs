@@ -20,7 +20,7 @@ namespace HW12_6_BankA
             dontDisplayOnForm
         }
 
-        private static event Action<object, string, LogEventType> LogEvent; //Тот самый ЭКШОН, ну куда его еще впихнуть...
+        private static event Action<object, string, LogEventType> LogEvent;
 
         private static string Employer { get; set; }
         private static TextBox TextOnForm { get; set; }
